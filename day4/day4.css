@@ -1,0 +1,23 @@
+.box{
+  max-width: 200px;  
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+}
+.box_danger{
+    background-color: red;
+}
+.box_warning{
+    background-color: yellow;
+    /* position: absolute; */
+    top: -20px;
+    left: 120px;
+}
+.box_success{
+    background-color: green;
+    position: fixed;
+    top: 90px;
+    left: 260px;
+    z-index: 1;
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    background-color: aqua;
+    flex-grow: 1;
+    height: 100vh;
+}
+h2{
+    background-color: brown;
+    flex-grow: 4;
+    height: 100vh;
+}
+p{
+    font-size: larger;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25vh;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.header .header-opition{
+    display: flex;
+    
+}
+h2 .content{
+    margin: 10px;
+    height: 75vh;
+    
+}
+h2 .content .content1{
+    border: 1px solid black;
+    height: 30vh;
+    
+}
+h2 .content .content2{
+    border: 1px solid black;
+    height: 30vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+h2 .content .content3{
+    border: 1px solid black;
+    height: 30vh;
+    
+}
+h2 .content .content4{
+    border: 1px solid black;
+    height: 30vh;
+}
+h2 .content .content5{
+    border: 1px solid black;
+    height: 30vh;
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+h2 .content .content6{
+    border: 1px solid black;
+    height: 30vh;
+}

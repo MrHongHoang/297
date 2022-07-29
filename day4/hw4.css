@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cha{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.con1{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    /* align-self: center; */
+}
+.con2{
+    background-color: dimgray;
+    width: 100px;
+    height: 100px;
+}
+.con3{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+
+
+.cha2{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con21{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.con22{
+    background-color: dimgray;
+    width: 100px;
+    height: 100px;
+}
+.con23{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+
+
+
+
+.cha3{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con31{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.con32{
+    background-color: dimgray;
+    width: 100px;
+    height: 100px;
+}
+.con33{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    
+}
+.cha4{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.con41{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.con42{
+    background-color: dimgray;
+    width: 100px;
+    height: 100px;
+}
+.con43{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.cha5{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: end;
+
+}
+.con51{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+   
+}
+.con52{
+    background-color: dimgray;
+    width: 100px;
+    height: 100px;
+}
+.con53{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+
+.cha6{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.con61{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.con62{
+    background-color: dimgray;
+    width: 100px;
+    height: 100px;
+}
+.con63{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    
+}

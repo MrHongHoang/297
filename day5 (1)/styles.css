@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header .logo .logo-text{
+    color: white;
+}
+
+header .options ul{
+    display: flex;
+}
+
+header .options ul li{
+    list-style: none;
+}
+header .options ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+.container{
+    display: flex;
+}
+.container .sidebar{
+    flex: 1;
+    background-color: rgb(47, 0, 255);
+    min-height: 100vh;
+    
+}
+.container .content{
+    background-color: rgb(201, 218, 23);
+    flex: 5;
+}
+
+.container .content .product-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px;
+    padding: 10px;
+}
+.container .content .product-container .item{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.container .content .product-container .item .item-img img{
+    width: 100%;
+}
+.container .content .product-container .item .item-info{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+.container .content .product-container .item .item-info .label-name,
+
+.container .content .product-container .item .item-info .label-price{
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width : 1200px){
+    .container .content .product-container{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media only screen and (max-width : 900px){
+    .container .content .product-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (max-width : 600px){
+    .container .content .product-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width : 500px){
+   .container{
+    flex-direction: column;
+   }
+}
+@media only screen and (max-width : 480px){
+    .container .content .product-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
+.flex-container{
+    background-color: red;
+    height: 700px;
+    width: 700px;
+    display: flex;
+    padding: 0 30px;
+    
+}
+.flex-container .box{
+    background-color: green;
+    height: 200px;
+    flex: 1;
+    margin-left: 30px;
+   
+}
+
+.flex-container .box.box-1{
+    margin-left: 0;
+}

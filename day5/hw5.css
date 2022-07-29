@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 15vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin: 2px 0;
+
+}
+
+header .logo{
+    background-color: brown;
+    border: 1px solid orange;
+    height: 50px;
+    flex: 1;
+}
+header .content{
+    background-color: green;
+    height: 50px;
+    border: 1px solid blue;
+    flex: 2;
+    margin-left: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: 70vh;
+    border: 1px solid red;
+    margin-bottom: 5px;
+}
+main .sidebar{
+    height: 250px;
+    border: 1px solid black;
+    flex: 1;
+    background-color: brown;
+}
+main .content{
+    height: 250px;
+    border: 1px solid green;
+    flex: 2;
+    margin-left: 50px;
+    background-color: aqua;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: 15vh;
+    border: 1px solid red;
+}
+footer .sidebar{
+height: 50px;
+border: 1px solid black;
+    flex: 1;
+    background-color: brown;
+}
+footer .content{
+    height: 50px;
+    border: 1px solid green;
+    flex: 2;
+    margin-left: 50px;
+    background-color: aqua;
+}
+
+@media only screen and (max-width : 900px){
+header,main,footer{
+    flex-direction: column;
+}
+header .content, main .content, footer .content{
+    margin-left: 0;
+    
+}
+
+}
